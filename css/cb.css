@@ -1,5 +1,17 @@
-button{
-border-radius: 36px;
-background: linear-gradient(145deg, #f0f0f0, #cacaca);
-box-shadow:  10px 10px 19px #a6a6a6,
-             -10px -10px 19px #ffffff;}
+div {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 80px;
+    background: #ecf0f3;
+}
+.drop-shadow {
+    border-radius: 20px;
+    box-shadow: 18px 18px 30px #d1d9e6, -18px -18px 30px #fff;
+}
+.inner-shadow {
+    border-radius: 20px;
+    box-shadow: inset 18px 18px 30px #d1d9e6, inset -18px -18px 30px #fff;
+}
