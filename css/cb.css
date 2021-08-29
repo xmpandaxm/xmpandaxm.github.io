@@ -1,6 +1,26 @@
-.anniu{border-radius: 81px;
+body, html {
+  background-color:#ebecf0;
+}
 
-    background: #e0e0e0;
+body, p, input, select, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
 
-    box-shadow:  20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;}
+div, p {
+  color: #babecc;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+
+form {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
